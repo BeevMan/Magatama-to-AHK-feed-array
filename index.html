@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Magatama To Array </title>
+  </head>
+  <body>
+    <h1> Convert your Magatama file to an array for AHK feeding. </h1>
+      <label for="magFile">Choose a .mag file:</label>
+
+      <input type="file" onchange="readText(event)"
+        id="magFile" name="magFile"
+        accept=".mag, .txt">
+      
+    <h2 hidden> AHK ready array </h2>
+      <pre id="output"></pre>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,6 @@
+might be best to make regex variables and loop through toFilter using regex
+
+var idRegex = // will contain all secton id'section
+var classRegex = // will contain all character classes from pso
+
+var lvlRegex = // will contain regex to filter the level ups //should only be used upon class/id switches??? to give final lvl of the feed array
